@@ -1,0 +1,23 @@
+/* gravity forms styling */
+.gform_wrapper {
+  .bridge-home { // form
+    .gform_body {
+      ul.gform_fields {
+        li.gfield {
+          border-bottom: 1px solid $bam-lighter-blue;
+        }
+      }
+    }
+  	.gform_footer {
+      input[type=submit] {
+        background-color: $bam-lighter-blue;
+        color: white;
+      }
+      input[type=submit]:hover {
+        background-color: #242425;
+        border-color: #4985FF;
+      }
+
+  	} // gform footer
+  } // form
+} // gform wrapper

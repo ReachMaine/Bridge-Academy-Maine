@@ -1,0 +1,22 @@
+/*
+Theme Name: bridge-academy
+Description: Brodge Child Theme for Bridge Academy Maine
+Author: Reach Maine
+Template: bridge
+Version: 1.2
+*/
+/* ----------- Colors ---------------------------------- */
+/* ----------- end Colors ----------- */
+/* gravity forms styling */
+.gform_wrapper .bridge-home .gform_body ul.gform_fields li.gfield {
+  border-bottom: 1px solid #4985FF; }
+.gform_wrapper .bridge-home .gform_footer input[type=submit] {
+  background-color: #4985FF;
+  color: white; }
+.gform_wrapper .bridge-home .gform_footer input[type=submit]:hover {
+  background-color: #242425;
+  border-color: #4985FF; }
+
+/*  header stuff - here */
+/*** styling of content */
+/* *** keep this at the end *** */
