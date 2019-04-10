@@ -8,14 +8,22 @@ Version: 1.2
 /* ----------- Colors ---------------------------------- */
 /* ----------- end Colors ----------- */
 /* gravity forms styling */
-.gform_wrapper .bridge-home .gform_body ul.gform_fields li.gfield {
-  border-bottom: 1px solid #4985FF; }
-.gform_wrapper .bridge-home .gform_footer input[type=submit] {
+.gform_wrapper .gform_footer input[type=submit] {
   background-color: #4985FF;
   color: white; }
-.gform_wrapper .bridge-home .gform_footer input[type=submit]:hover {
+.gform_wrapper .gform_footer input[type=submit]:hover {
   background-color: #242425;
   border-color: #4985FF; }
+.gform_wrapper .bridge-home .gform_body ul.gform_fields li.gfield {
+  border-bottom: 1px solid #4985FF; }
+.gform_wrapper .bridge-info-request {
+  background-color: #ddefbf;
+  padding: 20px;
+  border: 2px solid #4985FF;
+  border-radius: 5px; }
+  .gform_wrapper .bridge-info-request .gfield label {
+    color: #272727;
+    font-size: 1.2em; }
 
 /*  header stuff - here */
 /*** styling of content */
